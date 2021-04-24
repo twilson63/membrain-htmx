@@ -6,7 +6,13 @@
   "author": "Tom Wilson <twilson63@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@architect/functions": "^3.13.11",
+    "@hyper.io/connect": "^1.0.1",
     "htm": "^3.0.4",
+    "node-fetch": "^2.6.1",
     "vhtml": "^2.2.0"
+  },
+  "devDependencies": {
+    "@architect/architect": "^8.5.8"
   }
 }
