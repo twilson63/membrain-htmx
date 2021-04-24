@@ -1,0 +1,12 @@
+{
+  "name": "membrain-htmx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/twilson63/membrain-htmx.git",
+  "author": "Tom Wilson <twilson63@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "htm": "^3.0.4",
+    "vhtml": "^2.2.0"
+  }
+}
