@@ -2,18 +2,7 @@ let arc = require('@architect/functions')
 let html = require('@architect/shared/html')
 let { movies } = require('@architect/shared/dal')
 let List = require('./list')
-
-const render = ctx => `
-<!doctype html>
-<html>
-  <head>
-    <title>Movies</title>
-  </head>
-  <body>
-    ${ctx}
-  </body>
-</html>
-`
+let render = require('@architect/shared/layout')
 
 async function index(req) {
   return {
@@ -29,6 +18,7 @@ async function Main() {
   return html`
     <main>
       <h1>The Movie Db</h1>
+      <a href="/new">Add New</a>
       <${List} movies=${movieList} />
     </main>`
 }

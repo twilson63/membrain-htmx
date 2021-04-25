@@ -8,4 +8,5 @@ RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2
 
 RUN npm i -g @architect/architect
 RUN npm i -g aws-sdk
-RUN echo "set ts=2" >> ~/.vimrc && echo "set sts=2" >> ~/.vimrc && echo "set et" >> ~/.vimrc
+RUN curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim

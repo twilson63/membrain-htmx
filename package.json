@@ -10,6 +10,7 @@
     "@hyper.io/connect": "^1.0.1",
     "htm": "^3.0.4",
     "node-fetch": "^2.6.1",
+    "ramda": "^0.27.1",
     "vhtml": "^2.2.0"
   },
   "devDependencies": {

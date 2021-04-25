@@ -3,6 +3,8 @@ membrain-htmx
 
 @http
 get /
+get /new
+post /create
 
 # @aws
 # profile default
